@@ -1,0 +1,21 @@
+POST _bulk
+{"index": {"_index":"ventas", "_id":"1"}}
+{"marca": "Audi", "modelo": "A3", "precio": "29345", "fecha_venta": "2021-03-10"}
+{"index": {"_index":"ventas", "_id":"2"}}
+{"marca": "Ford", "modelo": "Fiesta", "precio": "20907", "fecha_venta": "2021-07-18"}
+{"index": {"_index":"ventas", "_id":"3"}}
+{"marca": "Audi", "modelo": "A4", "precio": "40829", "fecha_venta": "2021-05-28"}
+{"index": {"_index":"ventas", "_id":"4"}}
+{"marca": "Audi", "modelo": "A8", "precio": "94661", "fecha_venta": "2021-06-10"}
+{"index": {"_index":"ventas", "_id":"5"}}
+{"marca": "Ford", "modelo": "Focus", "precio": "29987", "fecha_venta": "2021-05-26"}
+{"index": {"_index":"ventas", "_id":"6"}}
+{"marca": "Ford", "modelo": "Kuga", "precio": "36870", "fecha_venta": "2021-07-13"}
+{"index": {"_index":"ventas", "_id":"7"}}
+{"marca": "Kia", "modelo": "Sorento", "precio": "43673", "fecha_venta": "2021-05-25"}
+{"index": {"_index":"ventas", "_id":"8"}}
+{"marca": "Mercedes", "modelo": "A", "precio": "29635", "fecha_venta": "2021-03-25"}
+{"index": {"_index":"ventas", "_id":"9"}}
+{"marca": "Mercedes", "modelo": "GLA", "precio": "37363", "fecha_venta": "2021-07-25"}
+{"index": {"_index":"ventas", "_id":"10"}}
+{"marca": "Mercedes", "modelo": "GLA", "precio": "33141", "fecha_venta": "2021-02-08"}
